@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    
+    background: linear-gradient(45deg,green,blue,red);
+    
+
+}
+
+
+#btn {
+margin-top: 30px ;
+margin-left: 650px;
+width: 250px;
+height: 50px;
+color: aqua;
+font-size: 20px;
+background: saddlebrown;
+border-radius: 20px;
+border: none;
+box-shadow: 0px 0px 5px 5px forestgreen;
+cursor: pointer;
+    }
+    #btn:hover {
+        background: slateblue;
+        box-shadow: 0px 0px 5px 5px gold;
+    }
+
+.hero {
+    width: 100%;
+    height: 700px;
+  
+     display: flex;
+     justify-content:center;
+     align-items: center;
+}
+.calendar {
+    width: 500px;
+    height: 450px;
+    background: white;
+    border-radius: 10px;
+    border: 6px solid seagreen;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 20px 20px slateblue;
+}
+.right,.left {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    flex-direction: column;
+}
+.right {
+    width: 42%;
+    background: linear-gradient(45deg,blue,green,tomato);
+
+    
+}
+.left {
+    width: 58%;
+   background: tomato;
+}
+#data {
+color:white;
+font-size: 95px;
+font-style: normal;
+}
+#day {
+    color:black;
+    font-size: 40px;
+    font-style: italic;
+}
+#month{
+    color: aqua;
+    font-size: 40px;
+    font-weight: bold;
+}
+#year{
+    color: black;
+ font-size: 40px;
+ font-weight: bold;
+}
+#main {
+    width: 100%;
+   margin-top: 15px;
+font-size: 40px;
+text-align: center;
+    color:blue;
+    font-weight: bold;
+}
+@media (max-width:720px) {
+    .calendar{
+        margin-left: 30px;
+    }
+}
+@media (max-width:580px) {
+    .calendar{
+        margin-left: 70px;
+        width: 400px;
+        height: 350px;
+    }
+    #main{
+        font-size: 16px;
+    }
+    #day {
+        font-size: 15px;
+    }
+    #data {
+        font-size: 40px;
+    }
+    #month{
+        font-size: 20px;
+    }
+    #year{
+        font-size: 20px;
+    }
+}
+@media (max-width:500px) {
+  .calendar{
+    margin-right: 50px;
+  }
+}
+@media (max-width:320px) {
+    .calendar{
+        height: 300px;
+    }
+    #main{
+        font-size: 16px;
+    }
+    #day {
+        font-size: 15px;
+    }
+    #data {
+        font-size: 30px;
+    }
+    #month{
+        font-size: 15px;
+    }
+    #year{
+        font-size: 20px;
+    }
+  }
+
